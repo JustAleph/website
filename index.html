@@ -3,18 +3,40 @@
     <head>
       <title>portfolio</title>
       <meta charset="utf-8">
-      <link rel="stylesheet" href="css/opmaak.css">
+      <link rel="stylesheet" href="opmaak.css">
     </head>
-    <body>
-        <h1>mijn portfolio</h1>
-        <h2>inhoud:</h2>
-      <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">inhoud</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="aboutme.html">over mij</a>
-    <a href="hobbies.html">mijn hobbies</a>
-    <a href="socialmedia.html">social media</a>
-  </div>
-</div>
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="aboutme.html">over mij</a></li>
+  <li><a href="hobbies.html">hobbies</a></li>
+  <li><a href="socialmedia.html">social media</a></li>
+  <li><a href="contact.html">contact</a></li>
+</ul>
     </body>
 </html>
